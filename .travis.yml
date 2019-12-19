@@ -4,6 +4,8 @@ node_js:
 before_install:
   - npm i -g firebase-tools
   - npm install -g eslint
+  - npm install eslint-plugin-promise@latest --save-dev
+  - npm i
 script: echo "npm test temporarily disabled"
 after_success:
   - firebase deploy --token "$FIREBASE_TOKEN"
