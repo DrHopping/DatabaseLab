@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Add Student</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1 class="header-text">Add Student</h1>
+    </div>
+
+    <div class="students-container">
+        <table class="table table-dark table-striped table-hover">
+
+            <tr class="add-text">
+                <th>Field</th>
+                <th>Value</th>
+            </tr>
+
+            <tr>
+                <th><span class="student-text add-text">First Name</span></th>
+                <th>
+                    <input form="adding" name="firstName" class="form-control add-input" type="text">
+                </th>
+            </tr>
+            <tr>
+                <th><span class="student-text add-text">Last Name</span></th>
+                <th>
+                    <input form="adding" name="lastName" class="form-control add-input" type="text">
+                </th>
+            </tr>
+            <tr>
+                <th><span class="student-text add-text">Math</span></th>
+                <th>
+                    <input form="adding" name="math" class="form-control add-input" type="text">
+                </th>
+            </tr>
+            <tr>
+                <th><span class="student-text add-text">Physics</span></th>
+                <th>
+                    <input form="adding" name="physics" class="form-control add-input" type="text">
+                </th>
+            </tr>
+            <tr>
+                <th><span class="student-text add-text">English</span></th>
+                <th>
+                    <input form="adding" name="english" class="form-control add-input" type="text">
+                </th>
+            </tr>
+            <tr>
+                <th><span class="student-text add-text">History</span></th>
+                <th>
+                    <input form="adding" name="history" class="form-control add-input" type="text">
+                </th>
+            </tr>
+
+
+        </table>
+
+        <div class="footer">
+            <form action="/add" method="post" id="adding">
+                <button class="btn btn-secondary add-btn" type="submit">Add Student</button>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

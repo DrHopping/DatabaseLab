@@ -1,0 +1,50 @@
+body {
+    min-height: 100vh;
+    background-color: rgb(42, 45, 49);
+}
+
+.header {
+    background-color: rgb(42, 45, 49);
+}
+
+.header-text {
+    font-size: 50px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.student-text {
+    font-size: 40px;
+}
+
+th {
+    font-size: 20px;
+}
+
+.buttn {
+    width: 70px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-btn {
+    font-size: 25px;
+}
+
+.add-input {
+    width: 200px;
+    font-size: 22px;
+}
+
+.add-text {
+    margin-right: 100px;
+}
