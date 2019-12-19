@@ -14,7 +14,7 @@
   "functions": {
     "predeploy": [
       "npm intall",
-      "nmp install firebase-functions"
+      "npm install firebase-functions"
     ]
   }
 }
