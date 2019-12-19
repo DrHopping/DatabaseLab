@@ -13,7 +13,7 @@
   },
   "functions": {
     "predeploy": [
-      "npm intall",
+      "npm install",
       "npm install firebase-functions"
     ]
   }
