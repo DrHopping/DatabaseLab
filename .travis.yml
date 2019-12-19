@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+ - 12.12.0
+before_install:
+  - npm i -g firebase-tools
+  - npm install -g eslint
+after_success:
+  - firebase deploy --token "$FIREBASE_TOKEN"
+notifications:
+  email: false
+deploy:
+  provider: firebase
+  token: $FIREBASE_TOKEN
+branches:
+  only:
+    - master
