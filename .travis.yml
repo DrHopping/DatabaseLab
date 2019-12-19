@@ -10,7 +10,7 @@ script:
   - echo "npm test temporarily disabled"
   - npm run lint
 after_success:
-  - firebase deploy --token "$FIREBASE_TOKEN"
+  - npx firebase deploy --token "$FIREBASE_TOKEN"
 notifications:
   email: false
 deploy:
