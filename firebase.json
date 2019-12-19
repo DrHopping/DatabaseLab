@@ -13,8 +13,11 @@
   },
   "functions": {
     "predeploy": [
-      "npm install",
-      "npm install firebase-functions"
+      "npm install firebase-admin",
+      "npm install firebase-functions",
+      "npm install body-parser",
+      "npm install firebase",
+      "npm install ejs"
     ]
   }
 }
