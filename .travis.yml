@@ -3,12 +3,9 @@ node_js:
  - 12.12.0
 before_install:
   - npm i -g firebase-tools
-  - npm install -g eslint
-  - npm install eslint-plugin-promise@latest --save-dev
   - npm i
 script: 
   - echo "npm test temporarily disabled"
-  - npm run lint
 after_success:
   - npx firebase deploy --token "$FIREBASE_TOKEN"
 notifications:
